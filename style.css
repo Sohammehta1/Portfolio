@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+body{
+    background-image: url("top-view-desk-dark-concept-with-copy-space.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#title{
+    display: flex;
+    text-align: center;
+    color: white;
+    gap: 140px;
+}
+#title .name{
+    margin-top: 50px;
+    font-family: "Bungee Shade", sans-serif;
+    font-size: 5rem;
+}
+
+  
+
+#photo-container {
+    margin-top: 20px;
+}
+
+
+#photo img{
+    /* background-color: black; */
+    justify-self: start;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    grid-column: span 1
+}
+
+.pad{
+    padding: 50px 0 0 50px;
+    /* padding-top: 50px;
+    padding-left: 50px; */
+}
+
+.fluoroscent{
+    color: rgb(30, 255, 0);
+}
+
+.indent{
+    padding-left: 40px; 
+    font-size: 1.5rem;
+    max-width: 1300px;
+}
